@@ -1,0 +1,27 @@
+{
+  "spec_dir": "spec",
+  "spec_files": [
+    "../**/models/tests/userSpec.js",
+    "../**/models/tests/productSpec.js",
+    "../**/models/tests/orderSpec.js",
+    "../**/models/tests/addProductSpec.js",
+    "../**/services/tests/ServiceSpec.js",
+    "../**/handlers/tests/userHandlerSpec.js",
+    "../**/handlers/tests/pHandlerSpec.js",
+    "../**/handlers/tests/orderHandlerSpec.js",
+    "../**/handlers/tests/servicesHandlerSpec.js",
+    "../**/handlers/tests/addProductHandlerSpec.js"
+  ],
+  "helpers": [
+    "helpers/**/*.js"
+  ],"reporters": [
+    {
+      "name": "jasmine-spec-reporter#SpecReporter",
+      "options": {
+        "displayStacktrace": "all"
+      }
+    }
+  ],
+  "stopSpecOnExpectationFailure": false,
+  "random": false
+}
