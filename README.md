@@ -1,5 +1,5 @@
 # Storefront Backend Project
-***The Server-Side of online Storfront created to provide the the APIs will be fetched using the Front-End Side to get the data and store or delete products from and to the database as well as adding authentication and authorization for admins to add or remove to or from database***
+***The Server-Side of online Storefront created to provide the the APIs will be fetched using the Front-End Side to get the data and store or delete products from and to the database as well as adding authentication and authorization for admins to add or remove to or from database***
 ## How to setup and connect to the database
 
 - database.js is the script to connect to database.
