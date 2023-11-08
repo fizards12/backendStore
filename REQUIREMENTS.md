@@ -37,7 +37,7 @@ These are the notes from a meeting with the frontend developer that describe wha
  - the **Body** of the ***GET*** Request will have the token to check validity to see the user data.
 
 
-- create N[token required]: **used to add Product on Products Table** using ***POST*** request.
+- create [token required]: **used to add User on Users Table** using ***POST*** request.
  - the route used: http://localhost:3000/users
  - the **Body** of the  ***POST*** Request will be like this:
   {
