@@ -9,7 +9,7 @@ These are the notes from a meeting with the frontend developer that describe wha
  - the route used: http://localhost:3000/products
 
 - read: **used to show specific Product using its id** using ***GET*** request.
- - the route used: http://localhost:3000/products/"write product id here"
+ - the route used: http://localhost:3000/products/"write-product-id-here"
 
 - create [token required]: **used to add Product** using ***POST*** request.
  - the route used: http://localhost:3000/products
@@ -33,7 +33,7 @@ These are the notes from a meeting with the frontend developer that describe wha
 
 
 - read [token required]: **used to get the User data by its id** using ***GET*** request.
- - the route used: http://localhost:3000/users/"write user id here"
+ - the route used: http://localhost:3000/users/"write-user-id-here"
  - the **Body** of the ***GET*** Request will have the token to check validity to see the user data.
 
 
@@ -51,7 +51,7 @@ These are the notes from a meeting with the frontend developer that describe wha
 
 #### Orders
 - Current Order by user (args: user id)[token required]: **used to get the Orders of a user by its id** using ***GET*** Request.
- - the route used: http://localhost:3000/userorders/"write here the user's id".
+ - the route used: http://localhost:3000/userorders/"write-here-the-user's-id".
  - the header of the **Request** will contain the token 
     ***Example:*** ===> 
         {"Authorization" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImZpcnN0X25hbWUiOiJhaG1lZCIsImxhc3RfbmFtZSI6Im1vaGFtZWQiLCJwYXNzd29yZCI6IiQyYiQxMCRwQ1BNNTV2d3NjUTd1OHdyNlhUcUcuNk52eFYzZ1hQYVdQeUhDTjdaZEl0eFFDLldwT3l2RyJ9LCJpYXQiOjE2NDgwNDA5MzV9.fHoClR8nEXzmsF_NeXZnkcZT0bHtGQxMIXgKsCJtzXw"}
